@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    background: #ecebee;
+    text-align: center
+}
+
+#scpr ul {
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    pointer-events: none;
+}
+
+#scpr li {
+    height: 240px;
+    margin: 0 0 8px;
+}
+
+#scpr li div {
+    width: 100%;
+    height: 100%;
+    background: #f5f6f8 center / 400px no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+    #scpr li div {
+        background-size: 350px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    #scpr li div {
+        background-size: 300px;
+    }
+}
+
+#scpr:not(.unsupported) li div {
+    background-attachment: fixed;
+}
+
+#scpr.unsupported li div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    will-change: clip-path;
+}
+
+#scpr .f01 div {
+    background-image: url(../image/01.png);
+}
+
+#scpr .f02 div {
+    background-image: url(../image/02.png);
+}
+
+#scpr .f03 div {
+    background-image: url(../image/03.png);
+}
+
+#scpr .f04 div {
+    background-image: url(../image/04.png);
+}
+
+#scpr .f05 div {
+    background-image: url(../image/05.png);
+}
+
+#scpr .f06 div {
+    background-image: url(../image/06.png);
+}
+
+#scpr .f07 div {
+    background-image: url(../image/07.png);
+}
+
+#scpr .f08 div {
+    background-image: url(../image/08.png);
+}
+
+#scpr .f09 div {
+    background-image: url(../image/09.png);
+}
+
+#scpr .f10 div {
+    background-image: url(../image/10.png);
+}
+
+#scpr .f11 div {
+    background-image: url(../image/11.png);
+}
+
+#scpr .f12 div {
+    background-image: url(../image/12.png);
+}
+
+#scpr .f13 div {
+    background-image: url(../image/13.png);
+}
+
+#scpr .f14 div {
+    background-image: url(../image/14.png);
+}
+
+#scpr .f15 div {
+    background-image: url(../image/15.png);
+}
+
+#scpr .f16 div {
+    background-image: url(../image/16.png);
+}
+
+#scpr .f17 div {
+    background-image: url(../image/17.png);
+}
+
+#scpr .f18 div {
+    background-image: url(../image/18.png);
+}
+
+#scpr .f19 div {
+    background-image: url(../image/19.png);
+}
+
+#scpr .f20 div {
+    background-image: url(../image/20.png);
+}
